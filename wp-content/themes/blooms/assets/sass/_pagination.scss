@@ -1,0 +1,53 @@
+.pagination,
+.woocommerce-pagination {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  padding: 40px 0 60px;
+  .page-numbers {
+    margin: 0 5px;
+    color: $accent;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    padding: 7px;
+    justify-content: center;
+    border-radius: 50%;
+    &.current {
+      color: $tertiary;
+      position: relative;
+      background: $accent;
+    }
+    @include min-break($break-small) {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .next,
+  .prev {
+    display: none;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    font-size: 14px;
+    padding: 5px 35px;
+    border-radius: 24px;
+    width: auto;
+    height: 48px;
+    background: $secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    @include min-break($break-small) {
+      display: flex;
+    }
+  }
+  .next {
+    right: 0;
+  }
+  .prev {
+    left: 0;
+  }
+}

@@ -1,0 +1,25 @@
+.woocommerce-breadcrumb {
+	font-size: inherit;
+	padding-right: 10px;
+	margin-bottom: 0;
+	i {
+		font-style: normal;
+		display: inline-flex;
+		margin: 0 5px;
+		color: $accent;
+	}
+}
+.yoast-breadcrumbs {
+	font-size: inherit;
+	padding-right: 10px;
+	margin-bottom: 0;
+	font-size: 13px;
+  color: #6A6A6A;
+  font-weight: 400;
+	a {
+		margin-right: 5px;
+	}
+	.breadcrumb_last {
+		margin-left: 5px;
+	}
+}

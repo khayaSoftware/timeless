@@ -1,0 +1,7 @@
+*** Blooms changelog ***
+
+2022-03-15 - version 1.0.1
+* Fixes issue where both mobile and cart is open
+
+2022-03-01 - version 1.0.0
+* Initial Release

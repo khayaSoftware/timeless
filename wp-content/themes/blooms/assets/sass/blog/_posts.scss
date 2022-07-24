@@ -1,0 +1,65 @@
+.post {
+  margin-bottom: 45px;
+  .post-gallery {
+    position: relative;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    overflow: hidden;
+    > a {
+      display: block;
+      line-height: 0;
+
+      .wp-post-image {
+        @extend %mid-transition;
+      }
+
+      &:hover {
+        .wp-post-image {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+  .post-content-container {
+    padding: 0 10%;
+  }
+  .post-category {
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 0.1em;
+  }
+  .post-title {
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 13px;
+    }
+  }
+  .post-excerpt {
+    font-size: 15px;
+    line-height: 1.6;
+    p {
+      font-size: inherit;
+      margin-bottom: 5px;
+    }
+  }
+  .thb-post-bottom {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  &.style1 {
+    text-align: center;
+  }
+}
+.archive-title {
+  margin-bottom: 40px;
+
+  p {
+    font-size: 14px;
+  }
+}

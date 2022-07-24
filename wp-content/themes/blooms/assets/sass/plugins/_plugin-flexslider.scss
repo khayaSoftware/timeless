@@ -1,0 +1,52 @@
+.flex-direction-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .flex-nav-prev,
+  .flex-nav-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    border: 1px solid $accent;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    margin-top: -23px;
+    &:after {
+      display: inline-flex;
+      font-family: "blooms";
+      content: "\e80d";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1;
+    }
+    a {
+      display: block;
+      width: 46px;
+      height: 46px;
+      position: absolute;
+      text-indent: -9999em;
+      .rtl & {
+        text-indent: 9999em;
+      }
+    }
+    &:hover {
+      background: $black;
+      &:after {
+        color: #fff;
+      }
+    }
+  }
+  .flex-nav-next {
+    left: auto;
+    right: 30px;
+    &:after {
+      content: "\e80c";
+    }
+  }
+}

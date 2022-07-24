@@ -1,0 +1,519 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Frame\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-09 20:26+0300\n"
+"PO-Revision-Date: 2018-04-09 22:44+0300\n"
+"Last-Translator: Ant Ekşiler <anteksiler@gmail.com>\n"
+"Language-Team: Fuel Themes <support@fuelthemes.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_html__;esc_attr__;esc_attr_e;esc_html_x;"
+"_x\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: inc/admin\n"
+"X-Poedit-SearchPathExcluded-4: vendor\n"
+"X-Poedit-SearchPathExcluded-5: inc/gutenberg/node_modules\n"
+
+#: 404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"The page you were looking for doesnt exist. You may have mistyped the address or the "
+"page may have moved."
+msgstr ""
+
+#: 404.php:22
+msgid "Back to Home"
+msgstr ""
+
+#: comments.php:49
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:63
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:64
+msgid "Website"
+msgstr ""
+
+#: comments.php:67
+msgid "Comment"
+msgstr ""
+
+#: comments.php:71
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:84
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this "
+"account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:96
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:100
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:102
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:105
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:107
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/framework/customizer/article.php:6
+msgid "Article"
+msgstr ""
+
+#: inc/framework/customizer/article.php:26
+msgid "Author Name"
+msgstr ""
+
+#: inc/framework/customizer/article.php:46
+msgid "Article Date"
+msgstr ""
+
+#: inc/framework/customizer/article.php:66
+msgid "Article Category"
+msgstr ""
+
+#: inc/framework/customizer/article.php:86
+msgid "Article Navigation"
+msgstr ""
+
+#: inc/framework/customizer/article.php:106
+msgid "Article Tags"
+msgstr ""
+
+#: inc/framework/customizer/blog.php:6
+msgid "Blog"
+msgstr ""
+
+#: inc/framework/customizer/blog.php:23
+msgid "Blog Description"
+msgstr ""
+
+#: inc/framework/customizer/blog.php:24
+msgid "Displays on blog archive pages."
+msgstr ""
+
+#: inc/framework/customizer/blog.php:42
+msgid "Blog Categories"
+msgstr ""
+
+#: inc/framework/customizer/blog.php:62
+msgid "Post Date"
+msgstr ""
+
+#: inc/framework/customizer/blog.php:82
+msgid "Post Category"
+msgstr ""
+
+#: inc/framework/customizer/colors.php:6
+msgid "Color"
+msgstr ""
+
+#: inc/framework/customizer/colors.php:25
+msgid "Accent Color"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/controls/class-thb-google-font-select-custom-control.php:111
+msgid "Select weight & style for regular text"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/controls/class-thb-google-font-select-custom-control.php:121
+#: inc/framework/customizer/custom-controls/controls/class-thb-google-font-select-custom-control.php:139
+msgid "Select weight for"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/controls/class-thb-google-font-select-custom-control.php:121
+msgid "italic text"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/controls/class-thb-google-font-select-custom-control.php:139
+msgid "bold text"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/js/wp-color-picker-alpha.js:46
+msgid "Color value"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/js/wp-color-picker-alpha.js:47
+msgid "Select Color"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/js/wp-color-picker-alpha.js:48
+msgid "Default"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/js/wp-color-picker-alpha.js:49
+msgid "Select default color"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/js/wp-color-picker-alpha.js:50
+msgid "Clear"
+msgstr ""
+
+#: inc/framework/customizer/custom-controls/js/wp-color-picker-alpha.js:51
+msgid "Clear color"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:6
+msgid "Footer"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:25
+msgid "Display Footer?"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:44
+msgid "Footer Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:51
+msgid "One Column"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:55
+msgid "Two Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:59
+msgid "Three Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:63
+msgid "Four Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:67
+msgid "Double Left Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:71
+msgid "Double Right Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:75
+msgid "Large Left Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:79
+msgid "Large Right Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:83
+msgid "Five Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:87
+msgid "Six Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:91
+msgid "Five / Large Right Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:95
+msgid "Five / Large Left Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:99
+msgid "Five / Large 2 Right Columns"
+msgstr ""
+
+#: inc/framework/customizer/footer.php:103
+msgid "Five / Large 2 Left Columns"
+msgstr ""
+
+#: inc/framework/customizer/header-secondary.php:5
+msgid "Header - Secondary Area"
+msgstr ""
+
+#: inc/framework/customizer/header-secondary.php:23
+msgid "Display Search?"
+msgstr ""
+
+#: inc/framework/customizer/header.php:5
+msgid "Header"
+msgstr ""
+
+#: inc/framework/customizer/header.php:22
+msgid "Logo Height"
+msgstr ""
+
+#: inc/framework/customizer/header.php:39
+msgid "Logo Height - Mobile"
+msgstr ""
+
+#: inc/framework/customizer/header.php:56
+msgid "Fixed Header - Shadow"
+msgstr ""
+
+#: inc/framework/customizer/init.php:12
+msgid 'blooms'
+msgstr ""
+
+#: inc/framework/customizer/init.php:13
+msgid "Frame Theme Settings"
+msgstr ""
+
+#: inc/framework/customizer/mobilemenu.php:6
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/framework/customizer/mobilemenu.php:22
+msgid "Mobile Menu Footer Content"
+msgstr ""
+
+#: inc/framework/customizer/shop.php:6
+msgid "Shop"
+msgstr ""
+
+#: inc/framework/customizer/shop.php:23
+msgid "Products Per Page"
+msgstr ""
+
+#: inc/framework/customizer/shop.php:24
+msgid "Set number of products per page."
+msgstr ""
+
+#: inc/framework/customizer/shop.php:47
+msgid "Shop Title Categories"
+msgstr ""
+
+#: inc/framework/customizer/shop.php:49
+msgid "When selected, this will display a dropdown for shop categories."
+msgstr ""
+
+#: inc/framework/customizer/shop.php:66
+msgid "Shop Description"
+msgstr ""
+
+#: inc/framework/customizer/shop.php:67
+msgid "Displays on main shop page, similar to product category descriptions."
+msgstr ""
+
+#: inc/framework/customizer/shop.php:86
+msgid "Display Product Categories?"
+msgstr ""
+
+#: inc/framework/customizer/shop.php:87
+msgid "When enabled, product categories will be display over the product title."
+msgstr ""
+
+#: inc/framework/customizer/shop.php:107
+msgid "Display Only 1 Product Category?"
+msgstr ""
+
+#: inc/framework/customizer/shop.php:108
+msgid "When enabled, only the first product category will be shown."
+msgstr ""
+
+#: inc/framework/customizer/shop.php:128
+msgid "Single Product Ajax"
+msgstr ""
+
+#: inc/framework/customizer/shop.php:129
+msgid "When enabled, add to cart functionality will use AJAX on single product pages."
+msgstr ""
+
+#: inc/framework/customizer/subfooter.php:6
+msgid "Sub-Footer"
+msgstr ""
+
+#: inc/framework/customizer/subfooter.php:25
+msgid "Display Sub-Footer?"
+msgstr ""
+
+#: inc/framework/customizer/subfooter.php:45
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/framework/customizer/subheader.php:5
+msgid "Sub-Header"
+msgstr ""
+
+#: inc/framework/customizer/subheader.php:23
+msgid "Display Sub-Header?"
+msgstr ""
+
+#: inc/framework/customizer/subheader.php:37
+msgid "Sub-Header Text"
+msgstr ""
+
+#: inc/framework/customizer/typography.php:5
+msgid "Typography"
+msgstr ""
+
+#: inc/framework/customizer/typography.php:24
+msgid "Primary Font"
+msgstr ""
+
+#: inc/framework/customizer/typography.php:25
+msgid "Changes primarily heading tags"
+msgstr ""
+
+#: inc/framework/customizer/typography.php:49
+msgid "Secondary Font"
+msgstr ""
+
+#: inc/framework/customizer/typography.php:50
+msgid "Changes primarily body text"
+msgstr ""
+
+#: inc/gutenberg-patterns.php:22
+msgid "Homepage"
+msgstr ""
+
+#: inc/gutenberg-patterns.php:34
+msgid "About Page"
+msgstr ""
+
+#: inc/gutenberg-patterns.php:46
+msgid "Contact Page"
+msgstr ""
+
+#: inc/gutenberg-patterns.php:57
+msgid "Product Description"
+msgstr ""
+
+#: inc/gutenberg-patterns.php:68
+msgid "Smart Home"
+msgstr ""
+
+#: inc/misc.php:66
+msgid "This is a protected area. Please enter your password:"
+msgstr ""
+
+#: inc/misc.php:67
+msgid "Password"
+msgstr ""
+
+#: inc/misc.php:67
+msgid "Submit"
+msgstr ""
+
+#: inc/misc.php:191
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/misc.php:195
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: inc/misc.php:199
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: inc/misc.php:203
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/misc.php:207
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: inc/misc.php:210
+msgid "Latest News"
+msgstr ""
+
+#: inc/post-related.php:30
+msgid "by"
+msgstr ""
+
+#: inc/post-related.php:36
+msgid "on"
+msgstr ""
+
+#: inc/script-calls.php:79
+msgid "Adding to Cart"
+msgstr ""
+
+#: inc/script-calls.php:80
+msgid "Added To Cart"
+msgstr ""
+
+#: inc/script-calls.php:81
+msgid "has been added to your cart."
+msgstr ""
+
+#: inc/script-calls.php:82
+msgid "Prev"
+msgstr ""
+
+#: inc/script-calls.php:83 inc/templates/post-detail-bits/post-nav.php:30
+msgid "Next"
+msgstr ""
+
+#: inc/script-calls.php:84
+msgid "QTY"
+msgstr ""
+
+#: inc/templates/header/mobile-menu-style1.php:17
+#: inc/woocommerce/woocommerce-cart.php:71 inc/woocommerce/woocommerce-filterbar.php:21
+msgid "Close"
+msgstr ""
+
+#: inc/templates/header/mobile-menu-style1.php:18
+msgid "Menu"
+msgstr ""
+
+#: inc/templates/post-detail-bits/post-nav.php:24
+msgid "Previous"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-cart.php:22 inc/woocommerce/woocommerce-cart.php:72
+msgid "Shopping Cart"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-filterbar.php:22
+msgid "Filters"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-filterbar.php:106
+#: inc/woocommerce/woocommerce-filterbar.php:139
+msgid "Filter"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-filterbar.php:171
+msgid "Show"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-misc.php:20
+msgid "View cart"
+msgstr ""
+
+#: searchform.php:13 searchform.php:14
+msgid "Search"
+msgstr ""

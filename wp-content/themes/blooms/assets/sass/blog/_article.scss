@@ -1,0 +1,199 @@
+.post-detail {
+  .post-header-container {
+    display: grid;
+    position: relative;
+    background: $accent;
+    overflow: hidden;
+    margin: 0 -15px;
+    @include min-break($break-small) {
+      border-radius: 6px;
+      margin: 0;
+    }
+    @include min-break($break-medium) {
+      height: 520px;
+      grid-template-columns: auto 440px;
+    }
+  }
+  .thb-article-featured-image {
+    .wp-post-image {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+
+      @include min-break($break-small) {
+        height: 520px;
+      }
+    }
+  }
+  .post-title-container {
+    padding: 8%;
+    color: $tertiary;
+    width: 100%;
+    @include min-break($break-small) {
+      padding: 12%;
+    }
+    .thb-article-meta {
+      font-size: 13px;
+      font-weight: 400;
+      color: $tertiary;
+      a {
+        font-weight: 500;
+        color: $tertiary;
+      }
+      em {
+        font-style: normal;
+        margin-right: 3px;
+      }
+      > div {
+        display: inline-flex;
+      }
+    }
+    h1 {
+      color: $tertiary;
+      @include min-break($break-small) {
+        font-size: 34px;
+      }
+    }
+    .post-category {
+      font-size: 13px;
+      margin-bottom: 20px;
+      a {
+        color: $tertiary;
+      }
+    }
+  }
+  .post-content-container {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .post-content {
+    p + h1,
+    p + h2,
+    p + h3,
+    p + h4,
+    p + h5,
+    p + h6 {
+      margin-top: 2rem;
+    }
+  }
+  .thb-social-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+    .sd-title {
+      font-weight: 500;
+      border: 0;
+      font-size: 14px;
+      margin-bottom: 20px;
+      &:before {
+        content: none;
+      }
+    }
+    .sharedaddy,
+    .sd-sharing,
+    .sd-content {
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .sd-content {
+      ul {
+        width: 100%;
+      }
+      li {
+        display: inline-flex;
+        padding: 0;
+        text-align: center;
+        flex: 1;
+        margin: 0 18px 18px 0;
+
+        &.share-end {
+          display: none;
+          flex: 0;
+        }
+        .share-icon {
+          padding: 0 !important;
+          box-shadow: none !important;
+          border-radius: 0;
+          width: 100%;
+          border: 0 !important;
+          background: transparent !important;
+          display: inline-flex;
+          align-items: center;
+          color: $accent !important;
+          &:before {
+            font-size: 16px;
+            top: 0;
+          }
+        }
+        span {
+          font-size: 12px;
+          margin-left: 8px;
+          display: none;
+
+          @include min-break($break-medium) {
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+
+  .thb-article-nav {
+    margin-top: 30px;
+    padding: 15px 0;
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+    display: flex;
+    flex-direction: column;
+
+    @include min-break($break-small) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .thb-article-nav-post {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 15px 0;
+      max-width: 340px;
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        font-size: 30px;
+        line-height: 1;
+        font-family: "blooms";
+        @include translateY(-50%);
+        color: $black;
+      }
+      span {
+        color: $grey;
+        font-size: 13px;
+        margin-bottom: 6px;
+      }
+      strong {
+        color: $black;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      &.previous {
+        padding-left: 40px;
+        &:before {
+          content: "\e803";
+          left: 0;
+        }
+      }
+      &.next {
+        text-align: right;
+        padding-right: 40px;
+        margin-left: auto;
+        &:before {
+          content: "\e804";
+          right: 0;
+        }
+      }
+    }
+  }
+}

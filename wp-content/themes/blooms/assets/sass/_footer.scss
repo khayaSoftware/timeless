@@ -1,0 +1,129 @@
+.footer {
+  padding: 40px 0;
+  margin-top: 40px;
+  background: $accent;
+  color: rgba(#fff, 0.9);
+  font-size: 15px;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  @include min-break($break-small) {
+    margin-top: 60px;
+    padding: 95px 0 125px 0;
+  }
+  .home & {
+    margin-top: 0;
+  }
+  a {
+    color: rgba(255, 255, 255, 0.9);
+    &:hover {
+      color: #fff;
+    }
+  }
+  &.footer-full-width-on {
+    > .row {
+      max-width: none;
+    }
+  }
+  .widget {
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    .thb-widget-title {
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      color: $tertiary;
+      font-weight: 500;
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+    &.widget_text {
+      line-height: 24px;
+      .thb-widget-title {
+        font-size: 28px;
+        margin-bottom: 24px;
+        letter-spacing: normal;
+      }
+      p {
+        line-height: inherit;
+        margin-bottom: 15px;
+        @include min-break($break-small) {
+          margin-bottom: 32px;
+        }
+        &:last-child {
+          margin: 0;
+        }
+        a {
+          font-size: 13px;
+          letter-spacing: inherit;
+        }
+      }
+    }
+  }
+  .footer-large-left-column {
+    @include min-break($break-medium) {
+      margin-right: auto;
+    }
+  }
+  .footer-large-right-column {
+    @include min-break($break-medium) {
+      margin-left: auto;
+    }
+  }
+}
+.subfooter {
+  background: $accent;
+  width: 100%;
+  z-index: 10;
+  font-size: 12px;
+  padding: 20px 0;
+  position: relative;
+  color: rgba(#fff, 0.6);
+  @include min-break($break-small) {
+    padding: 30px 0;
+  }
+  p {
+    font-size: inherit;
+    margin-bottom: 0;
+  }
+  a {
+    color: #fff;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+  &.subfooter-full-width-on {
+    .row.subfooter-row {
+      max-width: none;
+    }
+  }
+}
+#scroll_to_top {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $secondary;
+  position: fixed;
+  bottom: -50px;
+  right: 15px;
+  z-index: 60;
+  cursor: pointer;
+  .rtl & {
+    right: auto;
+    left: 15px;
+  }
+  svg {
+    @extend %quick-transition;
+  }
+  &.active {
+    bottom: 15px;
+  }
+  &:hover {
+    svg {
+      transform: scale(1.1);
+    }
+  }
+}

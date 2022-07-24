@@ -1,0 +1,190 @@
+.logo-holder {
+  display: inline-flex;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-right: auto;
+  max-width: 100%;
+  flex-shrink: 0;
+  padding: 20px 0;
+  @include min-break($break-medium) {
+    margin-left: 0;
+    margin-right: 45px;
+  }
+  .logolink {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+  }
+  .logoimg {
+    max-height: 45px;
+    object-fit: contain;
+  }
+  .logo-text {
+    font-size: 26px;
+    font-weight: 600;
+    @include min-break($break-medium) {
+      white-space: nowrap;
+    }
+  }
+}
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  position: sticky;
+  padding: 0 15px;
+  z-index: 30;
+  width: 100%;
+  user-select: none;
+  background: #fff;
+  border-bottom: 1px solid $border;
+  @extend %quick-transition;
+
+  @include min-break($break-small) {
+    padding: 0 50px;
+  }
+
+  .page & {
+    margin-bottom: 30px;
+    @include min-break($break-small) {
+      margin-bottom: 45px;
+    }
+  }
+  .page-template-default &,
+  .page-template-template-pagetitle &,
+  .home & {
+    margin-bottom: 0;
+  }
+
+  .woocommerce-cart &,
+  .woocommerce-checkout & {
+    margin-bottom: 30px;
+    @include min-break($break-small) {
+      margin-bottom: 45px;
+    }
+  }
+  .logo-menu-wrapper {
+    display: inline-flex;
+  }
+  .header-logo-row {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    grid-template-columns: 1fr auto 1fr;
+    @include min-break($break-medium) {
+      grid-template-columns: auto 1fr;
+    }
+  }
+  .logo-and-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .thb-navbar {
+    display: none;
+    height: 100%;
+    @include min-break($break-medium) {
+      display: inline-flex;
+      width: 100%;
+    }
+  }
+  .thb-header-inline-search {
+    background: #fff;
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 50px 50px 62px;
+    opacity: 0;
+    visibility: hidden;
+    border-top: 1px solid $border;
+    @extend %mid-transition;
+    &.active {
+      visibility: visible;
+      opacity: 1;
+    }
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 1;
+      pointer-events: none;
+      @extend %quick-transition;
+    }
+    form {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 680px;
+
+      input {
+        font-size: 20px;
+        padding-bottom: 6px;
+      }
+      button {
+        background-size: 18px 18px;
+      }
+    }
+  }
+  &.fixed {
+    z-index: 40;
+    @extend %admin-style;
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 1;
+      pointer-events: none;
+      @extend %quick-transition;
+    }
+    .fixed-logo-holder {
+      display: inline-flex;
+      align-items: center;
+
+      .mobile-toggle-holder {
+        display: inline-flex;
+        @include min-break($break-medium) {
+          display: none;
+        }
+      }
+    }
+    .full-menu {
+      display: none;
+      margin: 0 auto;
+      @include min-break($break-medium) {
+        display: inline-flex;
+      }
+    }
+    &.light-header {
+      border-bottom: 1px solid #eee;
+    }
+  } // .fixed
+}
+.thb-fixed-shadow-style1:before {
+  @include box-shadow(0 2px 5px rgba(0, 0, 0, 0.06));
+}
+.thb-fixed-shadow-style2:before {
+  @include box-shadow(
+    0 9px 38px rgba(0, 0, 0, 0.05),
+    0 5px 12px rgba(0, 0, 0, 0.1)
+  );
+}
+.thb-fixed-shadow-style3:before {
+  @include box-shadow(
+    0 19px 38px rgba(0, 0, 0, 0.1),
+    0 5px 22px rgba(0, 0, 0, 0.15)
+  );
+}

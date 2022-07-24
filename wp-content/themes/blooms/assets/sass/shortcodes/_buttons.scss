@@ -1,0 +1,71 @@
+input[type="submit"],
+.button,
+.btn,
+.pushbutton-wide,
+.wp-block-search__button {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  background: $accent;
+  color: $tertiary;
+  padding: 0 35px;
+  max-width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 24px;
+  outline: 0;
+  position: relative;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  @include appearance(none);
+  @extend %quick-transition;
+
+  &:hover {
+    color: #fff;
+    transform: translateY(-3px);
+  }
+  &:focus {
+    color: #fff;
+  }
+  &.disabled,
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  &.white {
+    background: #fff;
+    color: $black;
+
+    &:hover {
+      background: $accent;
+      color: #fff;
+    }
+  }
+  &.white-alt {
+    background: rgba(#fff, 0.8);
+    color: $black;
+    &:hover {
+      color: $black;
+      background: #fff;
+    }
+  }
+  &.full {
+    width: 100%;
+    text-align: center;
+  }
+  &[name="update_cart"],
+  &.style2 {
+    background: $secondary;
+    color: $accent;
+    line-height: 44px;
+    &:hover {
+      background: $secondary;
+    }
+  }
+}

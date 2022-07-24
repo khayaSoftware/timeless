@@ -1,0 +1,32 @@
+.products {
+  .product-category {
+    .thb-category-link {
+      display: block;
+      text-align: center;
+
+      .thb-product-category-image {
+        border-radius: 6px;
+        overflow: hidden;
+
+        img {
+          @extend %mid-transition;
+        }
+      }
+      &:hover {
+        img {
+          transform: scale(1.05);
+        }
+      }
+      .woocommerce-loop-category__title {
+        font-weight: 500;
+        font-size: 15px;
+        padding: 16px 0 0;
+        margin: 0;
+        .count {
+          background: none;
+          color: inherit;
+        }
+      }
+    }
+  }
+}
